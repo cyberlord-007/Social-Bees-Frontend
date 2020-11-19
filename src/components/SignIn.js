@@ -15,7 +15,7 @@ const SignIn = () => {
             placeholder="Name"
             className="joinInput"
             type="text"
-            onChange={(e) => setUser(e.target.value)}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
         <div>
